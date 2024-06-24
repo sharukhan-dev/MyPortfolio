@@ -1,0 +1,453 @@
+
+/* General mobile styles */
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    .header {
+        padding: 1rem 5%;
+    }
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background: var(--bg-color);
+        width: 100%;
+        position: absolute;
+        top: 6rem; 
+        left: 0;
+        padding: 2rem 0;
+        border-top: .1rem solid rgba(255, 255, 255, 0.1);
+    }
+    .navbar.active {
+        display: flex;
+    }
+    #menu-icon {
+        display: block; 
+        cursor: pointer;
+    }
+    .navbar a {
+        margin: 2rem 0; 
+        text-align: center;
+    }
+
+    section {
+        padding: 5rem 5%; 
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .navbar a {
+        font-size: 2rem;
+    }
+
+    /* Home Section */
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 12rem 5%; 
+    }
+
+    .home-img img {
+        display: none;
+    }
+
+    .home-content h3 {
+        font-size: 2.4rem;
+    }
+
+    .home-content h1 {
+        font-size: 3.6rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
+    .social-media a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 1rem 2.4rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+     /* About Section */
+
+     .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 5rem 5%;
+    }
+
+    .about-img img {
+        object-fit: cover;
+    }
+
+    .heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 1rem 2.4rem;
+    }
+
+     /* Skills Section */
+
+    .skills-title {
+        font-size: 4rem;
+    }
+    
+    .skills-description {
+        font-size: 1.2rem;
+    }
+    
+    .skill-title {
+        font-size: 1.8rem;
+    }
+    
+    .skill-item {
+        font-size: 1rem;
+    }
+
+     /* Projects Section */
+
+     .about-project {
+        max-width: 100%;
+        padding: 1.5rem; 
+    }
+
+    /* Contact Section */
+
+    .contact h2 {
+        font-size: 3.2rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        padding: 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .contact form .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+
+     /* Footer Section */
+
+     .footer {
+        padding: 1rem 5%;
+    }
+
+    .footer-text p {
+        font-size: 1.4rem;
+    }
+
+    .footer-iconTop a i {
+        font-size: 2rem;
+    }
+}
+
+/* Tablet styles */
+
+@media (max-width: 768px) {
+
+    /* Navbar Section */
+
+    html {
+        font-size: 56.25%;
+    }
+    .header {
+        padding: 1.5rem 7%;
+    }
+    section {
+        padding: 0; 
+    }
+    .logo {
+        font-size: 2.3rem;
+    }
+    .navbar a {
+        font-size: 1.6rem; 
+    }
+
+    /* Home Section */
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 12rem 7%; 
+    }
+
+    .home-img img {
+        object-fit: cover;
+    }
+
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+
+    .home-content h1 {
+        font-size: 4.6rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .social-media a {
+        width: 3.8rem;
+        height: 3.8rem;
+        font-size: 1.9rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 1rem 2.6rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+     /* About Section */
+
+     .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 5rem 7%;
+    }
+
+    .about-img img {
+        object-fit: cover; 
+    }
+
+    .heading {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .about-content p {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 1rem 2.6rem;
+    }
+
+    /* Skills Section */
+
+    .skill {
+        width: 100%;
+    }
+    
+    .skills-title {
+        font-size: 4rem;
+    }
+    
+    .skills-description {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+    
+    .skill-title {
+        font-size: 2rem;
+    }
+    
+    .skill-item {
+        font-size: 1.2rem;
+    }
+
+    /* Projects Section */
+
+    .about-project {
+        max-width: 80%;
+    }
+
+     /* Contact Section */
+
+     .contact form .input-box {
+        flex-direction: column;
+    }
+
+    .contact form textarea {
+        width: 100%;
+    }
+
+    /* Footer Section */
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-text p {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Small desktop styles */
+@media (max-width: 1024px) {
+    html {
+        font-size: 60%; 
+    }
+    .header {
+        padding: 2rem 8%;
+    }
+    section {
+        padding: 5rem 8%; 
+    }
+    .logo {
+        font-size: 2.5rem;
+    }
+    .navbar a {
+        font-size: 2rem; 
+    }
+
+    /* Home Section */
+
+    .home {
+        padding: 12rem 8%; 
+    }
+
+    .home-img img {
+        width: 40vw;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content p {
+        font-size: 1.6rem;
+    }
+
+    .social-media a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+        padding: 1rem 2.8rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    /* About Section */
+
+    .about {
+        padding: 5rem 8%;
+    }
+
+    .about-img img {
+        width: 50vw;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .about-content h3 {
+        font-size: 2.4rem;
+    }
+
+    .about-content p {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+        padding: 1rem 2.8rem;
+    }
+
+    /* Skills Section */
+
+    .skills-title {
+        font-size: 3.6rem;
+    }
+    
+    .skills-description {
+        font-size: 1.6rem;
+    }
+    
+    .skill {
+        width: 45%;
+        padding: 1.5rem 3rem;
+    }
+    
+    .skill-title {
+        font-size: 2.4rem;
+    }
+    
+    .skill-item {
+        font-size: 1.4rem;
+    }
+
+    /* Projects Section */
+
+    .about-project {
+        max-width: 48%;
+    }
+
+}
